@@ -1,3 +1,8 @@
+## 
+
+
+
+
 ## CNN autoencoders
 
 CNN methods are reputed efficient for this kind of task. So, I chose to implement this method with basically many filters as described below. From an input, which is the image border, many operations where drawn to improve the learning capacity of the model. The loss function used was mean squared error, trained over 100 epochs with early stopping. Stochastic gradient descent was used with Adam method(RMSProp + momentum) and hyper-parameters of 0.01 for the learning rate. The non-linearities introduced in each layer were RELU. There wasn't any hyper-parameter search was performed. The upsampling used was used to replicate each value in the image as a 2×2 patch.All convolution layers use batch normalization and used L2 loss regularization.
