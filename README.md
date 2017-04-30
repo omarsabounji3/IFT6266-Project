@@ -1,7 +1,12 @@
-## Captions impact:
+## The L2 regularization network
 
+I tried partially using the L2 reconstruction network (Adversial loss) with some hyperparameters and it hasn't a significant impact on the result given by the this network. The results are still very blurry and the improvement isn't valuable
 
+## Captions impact
 
+The main difficulty of using captions is to integrate efficiently this advantage to the model. Obviously, we need to keep important words to improve the accuracy of the model. So we need to preprocess the words in the captions by extracting only meaningful words that can help in the prediction. The second issue is the way of integrating the useful information in the model. The transformation of all the meaningful information in a shape integrable for the model is to be done quantitatively. One way to do this is to use a matrix with binary factor corresponding to the presence of the word. This matrix can be integrated in one of the several layers of the CNN. 
+
+From the other blog posts, we can see that the captions hasn't significant impact on the improvement of the model. The addition of the captions hasn't changed the blurry aspect of the CNN. 
 
 ## CNN autoencoders
 
@@ -15,9 +20,9 @@ In this project, we have another advantage, it is the presence of captions that 
 
 ## Methods : 
 
-In the deep learning literature, there are many models able to complete task needed for this project. Among them, there are CNNs(Convolutional neural network)and its multiple version, L2 regularization Network, GAN(Generative Adversial Network) and its multiple version. 
+In the deep learning literature, there are many models able to complete task needed for this project. Among them, there are CNNs(Convolutional neural network)and its multiple version, L2 reconstruction Network, GAN(Generative Adversial Network) and its multiple version. 
 
-
+(https://arxiv.org/pdf/1609.07093.pdf)
 
 (Pathak and al., Context Encoders: Feature Learning by Inpainting, 2016)
 
