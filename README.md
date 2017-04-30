@@ -1,6 +1,6 @@
-## The L2 regularization network
+## The L2 reconstruction network
 
-I tried partially using the L2 reconstruction network (Adversial loss) with some hyperparameters and it hasn't a significant impact on the result given by the this network. The results are still very blurry and the improvement isn't valuable
+I tried partially using the L2 reconstruction network (Adversial loss) with some hyperparameters and it hasn't a significant impact on the result given by the this network. The results are still very blurry and the improvement isn't valuable.
 
 ## Captions impact
 
