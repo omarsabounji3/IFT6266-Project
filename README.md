@@ -1,4 +1,4 @@
-## Project objectives
+## Project description
 
 The objectives of this blog is to document the methodology and the results of the class project. This project is part of the deep learning course IFT 6266. 
 
