@@ -1,6 +1,13 @@
+## The first method used is a CNN
+
+CNN methods are reputed efficient for this kind of task. So, I chose to implement this method with basically many filters as described below. From an input, which is the image border, many operations where drawn to improve the learning capacity of the model. The loss function used was mean squared error, trained over 100 epochs with early stopping. Stochastic gradient descent was used with Adam method(RMSProp + momentum) and hyper-parameters of 0.01 for the learning rate. . The non-linearities introduced in each layer were RELU. There wasn't any hyper-parameter search was performed. The upsampling used was used to replicate each value in the image as a 2×2 patch.
+
+<img width="287" alt="capture d ecran 2017-04-30 a 15 02 50" src="https://cloud.githubusercontent.com/assets/18235074/25567190/61749d24-2db6-11e7-8f63-bc5ab73f1fa7.png">
+
+
 ## Methods : 
 
-In the deep learning literature, there are many models able to complete task needed for this project. Among them, there are autoencoders, L2 regularization Network, GAN and its multiple version (Generative Adversial Network). 
+In the deep learning literature, there are many models able to complete task needed for this project. Among them, there are CNNs(Convolutional neural network), L2 regularization Network, GAN(Generative Adversial Network) and its multiple version. 
 
 
 
