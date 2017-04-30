@@ -1,6 +1,6 @@
 ## Methods : 
 
-There are many 
+In the deep learning literature, there are many models able to complete task needed for this project. Among them, there are autoencoders, L2 regularization Network, GAN and its multiple version (Generative Adversial Network). 
 
 
 
