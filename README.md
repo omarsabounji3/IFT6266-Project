@@ -1,3 +1,11 @@
+## Summary of the experimentation
+
+Two major models were experimented during this project. 
+
+The first one is a CNN encoder containing many filters like pooling, upsampling, convolution and dense layer with early stopping. This model generated a correct prediction, colors and lines were fairly predicted. Although, the image produced were slightly blurred. The attempt of adding captions and l2 reconstruction network didn't significantly improve the results.
+
+I hoped that the second method will improve the result, because theoretically it is a more efficient method. Unfortunately, even with several modification to the network, the model didn't converge. 
+
 ## GAN unsucessful attempt
 
 I tried to implement a conditional GAN based on the CNN created at the begining. To avoid collapsing, label smooting and noise were added to real images. Suprisingly, the model wasn't converging and I get those images below.
