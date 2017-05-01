@@ -1,4 +1,4 @@
-## Summary of the experimentation
+## Summary of the experimentations
 
 Two major models were experimented during this project. 
 
