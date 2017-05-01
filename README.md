@@ -1,4 +1,4 @@
-## GAN attempt
+## GAN unsucessful attempt
 
 I tried to implement a conditional GAN based on the CNN created at the begining. To avoid collapsing, label smooting and noise were added to real images. Suprisingly, the model wasn't converging and I get those images below.
 
