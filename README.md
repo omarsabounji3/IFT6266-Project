@@ -1,3 +1,11 @@
+## GAN attempt
+
+I tried to implement a conditional GAN based on the CNN created at the begining. To avoid collapsing, label smooting and noise were added to real images. Suprisingly, the model wasn't converging and I get those images below.
+
+![telechargement](https://cloud.githubusercontent.com/assets/18235074/25569214/b9bde650-2de0-11e7-95dd-d2b4f4571d21.png)
+
+I tried to change my hyperparameters(learning rates for example) and the loss function, but the GAN is still not converging. I may have to change all the architecture of my primary network to enable the GAN to perform. 
+
 ## The L2 reconstruction network
 
 I tried using the L2 reconstruction network (Adversial loss) with some hyperparameters and it hasn't a significant impact on the result given by the this network. The results are still very blurry and the improvement isn't valuable.
